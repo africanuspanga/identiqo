@@ -1,3 +1,6 @@
 .DS_Store
 node_modules/
 *.log
+
+# Large source hero images (web-optimized copies live in identiqo/assets/images/hero/)
+/hero*.jpg
