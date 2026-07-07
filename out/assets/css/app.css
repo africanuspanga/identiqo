@@ -1,6 +1,6 @@
 /**!
 
-    Template Name: 'Relik-Admin Dashboard'
+    Template Name: 'Identiqo Design Agency Website'
     Template URI:
     Description:
     Author: 
@@ -16,12 +16,12 @@
 **/
 :root
 {
---heading-color: #1D1D1B;
---heading-bg: #1D1D1B;
+--heading-color: #000000;
+--heading-bg: #000000;
 --white-color: #fff;
 --white-bg: #fff;
---accent-color: rgba(157, 248, 86, 1);
---accent-bg: rgba(157, 248, 86, 1);
+--accent-color: #fd9800;
+--accent-bg: #fd9800;
 --light-bg: #F6F6F6;
 --light-color1: rgba(255, 255, 255, 1);
 }
@@ -179,13 +179,13 @@ clear: both;
 
 ::-moz-selection
 {
-background-color: #989ffd;
+background-color: #fd9800;
 color: #fff;
 }
 
 ::selection
 {
-background-color: #989ffd;
+background-color: #fd9800;
 color: #fff;
 }
 
@@ -2316,7 +2316,7 @@ a.white-color {
   left: 0;
   z-index: 1;
   position: absolute;
-  background: linear-gradient(180deg, rgba(29, 29, 27, 0) 26.44%, #1D1D1B 100%);
+  background: linear-gradient(180deg, rgba(29, 29, 27, 0) 26.44%, #000000 100%);
 }
 .wionp-expand-icon img {
   transition: all 0.4s;
@@ -2497,7 +2497,7 @@ a.white-color {
 
 .wionfaq-item {
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(0, 6, 40, 0.1019607843);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   cursor: pointer;
 }
@@ -3156,10 +3156,10 @@ img.social-hide {
 .wionblog-d-comment-wrap {
   display: flex;
   padding-bottom: 24px;
-  border-bottom: 1px solid rgba(20, 45, 111, 0.1019607843);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   padding-top: 24px;
-  border-top: 1px solid rgba(20, 45, 111, 0.1019607843);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 30px;
 }
 .wionblog-d-comment-wrap .reply-btn a {
@@ -3755,7 +3755,7 @@ img.social-hide {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 100%);
+  background: linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #000000 100%);
 }
 .wionhero-content2 {
   position: relative;
@@ -4118,7 +4118,7 @@ img.social-hide {
 }
 
 .WION_text_invert > div {
-  background-image: linear-gradient(to right, #1d1d1b 50%, rgba(0, 0, 0, 0.3) 50%);
+  background-image: linear-gradient(to right, #000000 50%, rgba(0, 0, 0, 0.3) 50%);
   padding: 0;
   background-size: 200% 100%;
   background-position: 100%;
@@ -5331,7 +5331,7 @@ a.current {
   text-align: left;
 }
 .wionmobile-menu::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 2px rgba(232, 6, 60, 0.2);
+  -webkit-box-shadow: inset 0 0 2px rgba(253, 152, 0, 0.2);
   background-color: #000;
 }
 .wionmobile-menu::-webkit-scrollbar {
@@ -5520,3 +5520,167 @@ a.wiondefault-btn.sm-size {
 }
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+/* Identiqo Brand Overrides */
+:root {
+  --accent-color: #fe8f01;
+  --accent-bg: #fe8f01;
+}
+
+a {
+  color: #000000;
+}
+a:hover {
+  color: #fe8f01;
+}
+
+/* Hero images */
+.wionhero-thumb img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+@media (max-width: 1399px) {
+  .wionhero-thumb img {
+    height: 460px;
+  }
+}
+@media (max-width: 991px) {
+  .wionhero-thumb img {
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .wionhero-thumb img {
+    height: 360px;
+  }
+}
+
+.wiondefault-btn:hover,
+.wionblog-btn:hover,
+.wiontitle-btn a:hover,
+.log-in-btn.red-btn {
+  background-color: #fe8f01;
+  border-color: #fe8f01;
+}
+
+.wionsub-title p {
+  color: #fe8f01;
+  font-weight: 500;
+}
+
+.wioncounter-item em,
+.wioncounter-data p {
+  color: #fe8f01;
+}
+
+.wionsection-title h2 span,
+.wionabout-content-data h3 span {
+  color: #fe8f01;
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li.active a,
+.mobile-menu-list ul li a:hover {
+  color: #fe8f01;
+}
+
+.wionportfolio-tag li a:hover,
+.wionblog-meta li a:hover,
+.wionfooter-menu ul li a:hover,
+.wionfooter-social a:hover {
+  color: #fe8f01;
+}
+
+.wionfooter-textarea {
+  max-width: 100%;
+}
+.wionfooter-textarea a h2 {
+  font-size: 32px;
+  line-height: 1.2em;
+  word-break: break-word;
+}
+@media (max-width: 991px) {
+  .wionfooter-textarea a h2 {
+    font-size: 24px;
+  }
+}
+.wionfooter-textarea a[href^="tel:"] h4 {
+  color: #fe8f01;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.wionfooter-textarea p.mt-10 {
+  color: #666;
+  font-size: 13px;
+}
+
+.wionfooter-logo a img {
+  max-width: 140px;
+  height: auto;
+}
+
+.header-logo a img,
+.mobile-logo a img {
+  max-width: 160px;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .header-logo a img,
+  .mobile-logo a img {
+    max-width: 130px;
+  }
+}
+
+/* Additional orange accents */
+::selection {
+  background-color: #fe8f01;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #fe8f01;
+  color: #fff;
+}
+
+.wiondefault-btn .wionbutton-icon {
+  background-color: #fe8f01;
+}
+
+.wionservice-item:hover .wionservice-icon,
+.wionservice-item.active .wionservice-icon {
+  color: #fe8f01;
+}
+
+.wionportfolio-btn:hover {
+  background-color: #fe8f01;
+  border-color: #fe8f01;
+}
+
+.wioncta-box:hover .wioncta-icon {
+  background-color: #fe8f01;
+}
+
+.wionblog-btn {
+  color: #fe8f01;
+}
+
+.wionaccordion-item .accordion-button:not(.collapsed) {
+  color: #fe8f01;
+}
+
+.wionform-input:focus,
+.wionform-textarea:focus {
+  border-color: #fe8f01;
+}
+
+.wionsocial-icon a:hover {
+  background-color: #fe8f01;
+  border-color: #fe8f01;
+  color: #fff;
+}
+
+.back-to-top {
+  background-color: #fe8f01;
+}
