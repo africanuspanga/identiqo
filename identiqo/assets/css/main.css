@@ -595,7 +595,7 @@
     padding-right: 10px;
   }
   .site-menu-main .sub-menu.megamenu .mega-drop-menu-item:hover {
-    color: #fd9800 !important;
+    color: #000000 !important;
   }
 }
 
@@ -973,7 +973,7 @@ li.sub-menu--item.nav-item-has-children i {
 .log-in-btn{
     width: 160px;
     height: 50px;
-    background: #fd9800;
+    background: #000000;
     border-radius: 3px;
     display: inline-block;
     text-align: center;
@@ -1010,12 +1010,12 @@ a.log-in-btn:hover:after {
 
 .log-in-btn.red-btn{
   color: #fff;
-  background-color: #fd9800;
+  background-color: #000000;
 }
 
 .log-in-btn.yellow-btn{
   color: #000000;
-  background-color: #fd9800;
+  background-color: #000000;
 }
 .log-in-btn.yellow-btn:hover{
   background-color: #fff;
