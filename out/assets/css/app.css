@@ -20,8 +20,8 @@
 --heading-bg: #000000;
 --white-color: #fff;
 --white-bg: #fff;
---accent-color: #fd9800;
---accent-bg: #fd9800;
+--accent-color: #000000;
+--accent-bg: #000000;
 --light-bg: #F6F6F6;
 --light-color1: rgba(255, 255, 255, 1);
 }
@@ -179,13 +179,13 @@ clear: both;
 
 ::-moz-selection
 {
-background-color: #fd9800;
+background-color: #000000;
 color: #fff;
 }
 
 ::selection
 {
-background-color: #fd9800;
+background-color: #000000;
 color: #fff;
 }
 
@@ -5331,7 +5331,7 @@ a.current {
   text-align: left;
 }
 .wionmobile-menu::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 2px rgba(253, 152, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
   background-color: #000;
 }
 .wionmobile-menu::-webkit-scrollbar {
@@ -5523,15 +5523,15 @@ a.wiondefault-btn.sm-size {
 
 /* Identiqo Brand Overrides */
 :root {
-  --accent-color: #fe8f01;
-  --accent-bg: #fe8f01;
+  --accent-color: #000000;
+  --accent-bg: #000000;
 }
 
 a {
   color: #000000;
 }
 a:hover {
-  color: #fe8f01;
+  color: #000000;
 }
 
 /* Hero images */
@@ -5561,36 +5561,36 @@ a:hover {
 .wionblog-btn:hover,
 .wiontitle-btn a:hover,
 .log-in-btn.red-btn {
-  background-color: #fe8f01;
-  border-color: #fe8f01;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .wionsub-title p {
-  color: #fe8f01;
+  color: #000000;
   font-weight: 500;
 }
 
 .wioncounter-item em,
 .wioncounter-data p {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .wionsection-title h2 span,
 .wionabout-content-data h3 span {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .main-menu ul li a:hover,
 .main-menu ul li.active a,
 .mobile-menu-list ul li a:hover {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .wionportfolio-tag li a:hover,
 .wionblog-meta li a:hover,
 .wionfooter-menu ul li a:hover,
 .wionfooter-social a:hover {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .wionfooter-textarea {
@@ -5607,7 +5607,7 @@ a:hover {
   }
 }
 .wionfooter-textarea a[href^="tel:"] h4 {
-  color: #fe8f01;
+  color: #000000;
   font-size: 20px;
   margin-top: 10px;
 }
@@ -5636,51 +5636,51 @@ a:hover {
 
 /* Additional orange accents */
 ::selection {
-  background-color: #fe8f01;
+  background-color: #000000;
   color: #fff;
 }
 ::-moz-selection {
-  background-color: #fe8f01;
+  background-color: #000000;
   color: #fff;
 }
 
 .wiondefault-btn .wionbutton-icon {
-  background-color: #fe8f01;
+  background-color: #000000;
 }
 
 .wionservice-item:hover .wionservice-icon,
 .wionservice-item.active .wionservice-icon {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .wionportfolio-btn:hover {
-  background-color: #fe8f01;
-  border-color: #fe8f01;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .wioncta-box:hover .wioncta-icon {
-  background-color: #fe8f01;
+  background-color: #000000;
 }
 
 .wionblog-btn {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .wionaccordion-item .accordion-button:not(.collapsed) {
-  color: #fe8f01;
+  color: #000000;
 }
 
 .wionform-input:focus,
 .wionform-textarea:focus {
-  border-color: #fe8f01;
+  border-color: #000000;
 }
 
 .wionsocial-icon a:hover {
-  background-color: #fe8f01;
-  border-color: #fe8f01;
+  background-color: #000000;
+  border-color: #000000;
   color: #fff;
 }
 
 .back-to-top {
-  background-color: #fe8f01;
+  background-color: #000000;
 }
